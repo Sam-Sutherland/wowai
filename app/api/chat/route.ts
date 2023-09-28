@@ -15,7 +15,124 @@ export async function POST(req: Request) {
 
   messages.push({
     content: `
-    You are a bot designed to help people play the class demonology warlock. Please help them by answering questions regarding their rotation by using the following information do not use any outside information you may have about world of warcraft. Take a deep breath before answering. If possible can you tell me what order to press the buttons in. All this information should be relavent to the Dragonflight expansion.
+    You are a bot designed to help people play the class demonology warlock or enhanement shamans. Please help them by answering questions regarding their rotation by using the following information do not use any outside information you may have about world of warcraft. Take a deep breath before answering. If possible can you tell me what order to press the buttons in. All this information should be relavent to the Dragonflight expansion for World of Warcraft only.
+
+    Enhancment shaman talent builds
+    BcQAAAAAAAAAAAAAAAAAAAAAAIJJpEJgkEikkQJhAAAAAAAAAAAAAKRIJkgiAJtkkSAQSCBC Elementalist M+
+    BcQAAAAAAAAAAAAAAAAAAAAAAIJBQSSkkkASSLJJAAAAAAAAAAAAgSEkQiSKiCJtkkyBAKBJkCC Storm M+
+
+    2 Set:Sundering increases your Mastery by (12 * 2)% for 15 sec.
+    4 Set:Sundering increases your Physical and Fire damage dealt by 20% for 15 sec and your next 2 Chain Lightning casts deal 20% increased damage and refund 50% of Maelstrom Weapon stacks consumed.
+
+    Enhancement Shaman Rotations in Dragonflight
+Due to the variety of distinct builds and how differently it plays both between them and at different target counts, this page may be a bit overwhelming at first glance. I've separated each of the individual build archetypes for Elementalist and Storm into their own sections, and also segmented both single target and AoE rotations depending on what you're looking for below.
+Enhancement Shaman Single Target Rotation and Priority
+Due to the high number of changes that happen in the rotation when taking certain talent combinations, and some limitations with the rotation tool, they have been separated into two sections: one with Elementalist information, and one with Storm information. In the two tabs below, you can find information for each, with additional individual talent options to add onto the curated builds from the talent page, with some minor exceptions. They also have a small notes section about build specific things to be aware of. Use the tabs to switch between them:
+Elementalist
+Storm
+
+This build always takes the  Lava Lash supporting talents on the right side,  Elemental Spirits and  Hailstorm to form its core. Other choices can be added for specific combinations below:
+Use the ✘ markers next to selected builds and talents to populate the priority list.
+ OPTIONS
+ Ascendance‎	 Crash Lightning‎	 Elemental Blast
+ Windfury Totem	 T30 2-piece	 T30 4-piece
+PRIORITY
+Cast  Feral Spirit
+Cast  Flame Shock (or  Primordial Wave) if it is not active on your target
+Cast  Ascendance (be primed with  Lightning Bolt)
+Cast  Sundering to activate the  Earthen Might 2-piece
+Cast  Windstrike
+Cast  Lava Lash with  Hot Hand active
+Cast  Windfury Totem if it is not active
+Cast  Elemental Blast with 5+ stacks of  Maelstrom Weapon and  Elemental Spirits active or at 2 charges
+Cast  Lightning Bolt with 5+ stacks of  Maelstrom Weapon and the  Primordial Wave buff active
+Cast  Chain Lightning with  Crackling Thunder 4-piece charges and 5+ stacks of  Maelstrom Weapon
+Cast  Lava Burst if at 5+ stacks of  Maelstrom Weapon
+Cast  Elemental Blast if at 5+ stacks of  Maelstrom Weapon
+Cast  Lightning Bolt if at 5+ stacks of  Maelstrom Weapon
+Cast  Lightning Bolt if at 10 stacks of  Maelstrom Weapon
+Cast  Primordial Wave
+Cast  Lava Lash if  Ashen Catalyst has 6+ stacks
+Cast  Ice Strike
+Cast  Frost Shock with  Hailstorm stacks
+Cast  Lava Lash
+Cast  Stormstrike
+Cast  Sundering
+Cast  Lightning Bolt if at 5+ stacks of  Maelstrom Weapon to generate  Hailstorm
+Cast  Frost Shock
+Cast  Crash Lightning
+Refresh  Flame Shock
+Refresh  Windfury Totem
+ ELEMENTALIST NOTES
+Your number one priority outside of getting cooldowns cycled is to avoid any  Maelstrom Weapon waste. Second (but just as important) is to react to  Hot Hand procs, making sure to weave  Lava Lash every other global when active. Finally, filling with cycles of the  Hailstorm combo and layering your  Elemental Spirits and  Primordial Wave (plus  Sundering with the set bonus) buff windows together.
+In single target, especially if taking a more hybridized loadout, expect very volatile ebbs and flows of your  Maelstrom Weapon. Starvation happens, so planning it out around your  Primal Maelstrom generation, your  Crackling Thunder refunds and  Swirling Maelstrom generation is important to get good payoff from  Elemental Blast.
+Some Elementalist builds can path through  Ascendance - particularly due to the strength of  Static Accumulation's refund mechanic. During this window, you should still aim to  Windstrike frequently when possible, and re-prime  Thorim's Invocation following the 4-piece with  Lightning Bolt using spare  Maelstrom Weapon stacks.
+UNDERSTANDING THE GAMEPLAY
+In Season 2, the set bonus drastically raises  Sundering's priority to activate the 2-piece, making it a core part of our burst toolkit. The 4-piece however has different rules depending on build due to the Patch 10.1.5 changes:
+Storm ignores it entirely due to how much it interferes with  Thorim's Invocation.
+Elementalist is still hungry for  Maelstrom Weapon so still uses them in single target when  Elemental Blast isn't available.
+While  Maelstrom Weapon is the most important aspect of the rotation in Dragonflight, because we can pool up to 10 stacks you don't need to rush to spend it the moment you get to 5. Instead, you should aim to weave your spender tools in between rotational cooldowns, or layer them with powerful burst windows such as  Elemental Spirits. However, this rule is broken if:
+If you're about to, or already have reached 10 stacks and could waste any further generation.
+You are playing any build that has  Static Accumulation, which pushes spending as soon as possible at 5+ to fish for procs.
+When playing Storm, it doesn't care about  Maelstrom Weapon waste at all so long as it's in service of keeping  Stormstrike on cooldown.
+Regardless of build, in Dragonflight when played properly you are significantly more likely to be "GCD locked" and have different abilities clash with each other as they come off cooldown. Because of that, it's more important to optimize the most valuable global based on the priority list rather than previous expansions where we've aimed to efficiently weave cooldowns to avoid downtime. There's an ebb and flow to our gameplay that, if mis-managed, will create deadtime in the rotation due to inefficient GCD usage. This has a knock-on effect on our  Maelstrom Weapon generation, that leads to less filled GCDs, creating a snowball effect.
+Enhancement Shaman AoE Rotation and Priority
+The majority of our AoE output is dictated by the talent selections we make throughout the tree, as these grant access to a variety of ways to convert our single target options into cleave, alongside significantly higher  Maelstrom Weapon generation. There are two distinct gameplay styles again much like single target, with the Elementalist and Storm variants of our tree having different damage delivery methods and preferred choices. Similar to the single target section, we have provided a section below that takes the curated builds from the talent page, and has some options to tailor the tool to your current build. Use the tabs to switch between build archetypes:
+
+Enhancement Shaman Rotations in Dragonflight
+Due to the variety of distinct builds and how differently it plays both between them and at different target counts, this page may be a bit overwhelming at first glance. I've separated each of the individual build archetypes for Elementalist and Storm into their own sections, and also segmented both single target and AoE rotations depending on what you're looking for below.
+Enhancement Shaman Single Target Rotation and Priority
+Due to the high number of changes that happen in the rotation when taking certain talent combinations, and some limitations with the rotation tool, they have been separated into two sections: one with Elementalist information, and one with Storm information. In the two tabs below, you can find information for each, with additional individual talent options to add onto the curated builds from the talent page, with some minor exceptions. They also have a small notes section about build specific things to be aware of. Use the tabs to switch between them:
+Elementalist
+Storm
+
+This build always takes the  Lava Lash supporting talents on the right side,  Elemental Spirits and  Hailstorm to form its core. Other choices can be added for specific combinations below:
+Use the ✘ markers next to selected builds and talents to populate the priority list.
+ OPTIONS
+ Ascendance‎	 Crash Lightning‎	 Elemental Blast
+ Windfury Totem	 T30 2-piece	 T30 4-piece
+PRIORITY
+Cast  Feral Spirit
+Cast  Flame Shock (or  Primordial Wave) if it is not active on your target
+Cast  Ascendance (be primed with  Lightning Bolt)
+Cast  Sundering to activate the  Earthen Might 2-piece
+Cast  Windstrike
+Cast  Lava Lash with  Hot Hand active
+Cast  Windfury Totem if it is not active
+Cast  Elemental Blast with 5+ stacks of  Maelstrom Weapon and  Elemental Spirits active or at 2 charges
+Cast  Lightning Bolt with 5+ stacks of  Maelstrom Weapon and the  Primordial Wave buff active
+Cast  Chain Lightning with  Crackling Thunder 4-piece charges and 5+ stacks of  Maelstrom Weapon
+Cast  Lava Burst if at 5+ stacks of  Maelstrom Weapon
+Cast  Elemental Blast if at 5+ stacks of  Maelstrom Weapon
+Cast  Lightning Bolt if at 5+ stacks of  Maelstrom Weapon
+Cast  Lightning Bolt if at 10 stacks of  Maelstrom Weapon
+Cast  Primordial Wave
+Cast  Lava Lash if  Ashen Catalyst has 6+ stacks
+Cast  Ice Strike
+Cast  Frost Shock with  Hailstorm stacks
+Cast  Lava Lash
+Cast  Stormstrike
+Cast  Sundering
+Cast  Lightning Bolt if at 5+ stacks of  Maelstrom Weapon to generate  Hailstorm
+Cast  Frost Shock
+Cast  Crash Lightning
+Refresh  Flame Shock
+Refresh  Windfury Totem
+ ELEMENTALIST NOTES
+Your number one priority outside of getting cooldowns cycled is to avoid any  Maelstrom Weapon waste. Second (but just as important) is to react to  Hot Hand procs, making sure to weave  Lava Lash every other global when active. Finally, filling with cycles of the  Hailstorm combo and layering your  Elemental Spirits and  Primordial Wave (plus  Sundering with the set bonus) buff windows together.
+In single target, especially if taking a more hybridized loadout, expect very volatile ebbs and flows of your  Maelstrom Weapon. Starvation happens, so planning it out around your  Primal Maelstrom generation, your  Crackling Thunder refunds and  Swirling Maelstrom generation is important to get good payoff from  Elemental Blast.
+Some Elementalist builds can path through  Ascendance - particularly due to the strength of  Static Accumulation's refund mechanic. During this window, you should still aim to  Windstrike frequently when possible, and re-prime  Thorim's Invocation following the 4-piece with  Lightning Bolt using spare  Maelstrom Weapon stacks.
+UNDERSTANDING THE GAMEPLAY
+In Season 2, the set bonus drastically raises  Sundering's priority to activate the 2-piece, making it a core part of our burst toolkit. The 4-piece however has different rules depending on build due to the Patch 10.1.5 changes:
+Storm ignores it entirely due to how much it interferes with  Thorim's Invocation.
+Elementalist is still hungry for  Maelstrom Weapon so still uses them in single target when  Elemental Blast isn't available.
+While  Maelstrom Weapon is the most important aspect of the rotation in Dragonflight, because we can pool up to 10 stacks you don't need to rush to spend it the moment you get to 5. Instead, you should aim to weave your spender tools in between rotational cooldowns, or layer them with powerful burst windows such as  Elemental Spirits. However, this rule is broken if:
+If you're about to, or already have reached 10 stacks and could waste any further generation.
+You are playing any build that has  Static Accumulation, which pushes spending as soon as possible at 5+ to fish for procs.
+When playing Storm, it doesn't care about  Maelstrom Weapon waste at all so long as it's in service of keeping  Stormstrike on cooldown.
+Regardless of build, in Dragonflight when played properly you are significantly more likely to be "GCD locked" and have different abilities clash with each other as they come off cooldown. Because of that, it's more important to optimize the most valuable global based on the priority list rather than previous expansions where we've aimed to efficiently weave cooldowns to avoid downtime. There's an ebb and flow to our gameplay that, if mis-managed, will create deadtime in the rotation due to inefficient GCD usage. This has a knock-on effect on our  Maelstrom Weapon generation, that leads to less filled GCDs, creating a snowball effect.
+Enhancement Shaman AoE Rotation and Priority
+The majority of our AoE output is dictated by the talent selections we make throughout the tree, as these grant access to a variety of ways to convert our single target options into cleave, alongside significantly higher  Maelstrom Weapon generation. There are two distinct gameplay styles again much like single target, with the Elementalist and Storm variants of our tree having different damage delivery methods and preferred choices. Similar to the single target section, we have provided a section below that takes the curated builds from the talent page, and has some options to tailor the tool to your current build. Use the tabs to switch between build archetypes:
 
     Demonology Warlock Rotations in Dragonflight
     Nether Portal Demonology Warlock Openers
