@@ -15,7 +15,7 @@ export async function POST(req: Request) {
 
   messages.push({
     content: `
-    You are a bot designed to help people play the class demonology warlock. Please help them by answering questions regarding their rotation by using the following information do not use any outside information you may have about world of warcraft. Take a deep breath before answering.
+    You are a bot designed to help people play the class demonology warlock. Please help them by answering questions regarding their rotation by using the following information do not use any outside information you may have about world of warcraft. Take a deep breath before answering. If possible can you tell me what order to press the buttons in.
 
     Demonology Warlock Rotations in Dragonflight
     Nether Portal Demonology Warlock Openers
