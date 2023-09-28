@@ -14,7 +14,10 @@ export async function POST(req: Request) {
   const { messages } = await req.json();
 
   messages.push({
-    content: `Demonology Warlock Rotations in Dragonflight
+    content: `
+    You are a bot designed to help people play the class demonology warlock. Please help them by answering questions regarding their rotation by using the following information do not use any outside information you may have about world of warcraft. Take a deep breath before answering.
+
+    Demonology Warlock Rotations in Dragonflight
     Nether Portal Demonology Warlock Openers
     Demonology Warlock Nether Portal Opener Rotation
     Due to how rigid the opener is when using  Nether Portal it is recommended to follow this opener only if you have the following talents:  Grimoire: Felguard,  Summon Vilefiend,  Summon Demonic Tyrant with 2/2  Soulbound Tyrant and  Soulburn.
